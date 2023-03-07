@@ -1,0 +1,167 @@
+body{
+    background-color: white;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+    height: 260px;
+    margin: 0;
+}
+h1{
+    margin-top: 50px;
+    margin-bottom: 10px;
+    font-size: 3em; /* em besically is adynamic way of sizing your font as per browsers settings*/
+    font-family: 'Shantell Sans', cursive;
+    color: #2F58CD;
+    /*text-align: center;*/
+}
+
+h2{
+    font-family: 'Shantell Sans', cursive;
+    color: #2F58CD;
+    font-size: 200%;
+}
+h3{
+    color: #2F58CD;
+    font-size: 150%;
+}
+
+p{
+    line-height: 2; /* this basically increase the height between sentences.*/
+    color: rgb(0, 0, 0) ;
+}
+
+a{
+    text-decoration: none;
+    color:#073552 ;
+    font-family: 'Merriweather', serif;
+    margin: 10px 20px;
+}
+
+a:hover{  /*this is called a psuedo class in CSS */
+    color: white;
+}
+
+.Propic{
+    /*height: 200px;   -> we can change the size of the image either by specifying the height or just by specific th width of the image to a persentage value*/
+    width: 12.5%;
+    display: block;
+    margin: 100px auto 50px auto;
+}
+
+
+.hello-img{
+    height: 200px;
+    margin-bottom: 50px;
+    margin: auto;
+}
+
+.intro{
+    width: 40%;
+    margin: 40px auto 60px;
+}
+
+.des{
+    color:black;
+    font-weight: bold;
+    margin-top: 50px;
+    font-size: 125%;
+}
+
+.skill-row{
+    width: 50%;
+    margin: 100px auto 200px auto;
+    text-align: left;
+}
+
+.contact-row{
+
+    margin-bottom: 50px;
+}
+
+.h3-contact{
+    margin-bottom: 50px;
+}
+.webdev{
+    width: 20%;
+    float: left;   /* this simply aligns the text to the left of the image which all is enclosed with a div*/
+    margin-right: 30px;
+    
+}
+
+.Dscience{
+    width: 20%;
+    float: right;
+    margin-right: 30px;
+}
+
+.sql{
+    width: 20%;
+    float: left;
+    margin-right: 30px;
+
+}
+
+.excel{
+    width: 20%;
+    float: right;
+    margin-right: 30px;
+}
+
+.contact-msg{
+    width: 40%;
+    margin: 40px auto 60px;
+    
+}
+
+.btn {
+    background: #3498db;
+    background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
+    background-image: -moz-linear-gradient(top, #3498db, #2980b9);
+    background-image: -ms-linear-gradient(top, #3498db, #2980b9);
+    background-image: -o-linear-gradient(top, #3498db, #2980b9);
+    background-image: linear-gradient(to bottom, #3498db, #2980b9);
+    -webkit-border-radius: 18;
+    -moz-border-radius: 18;
+    border-radius: 18px;
+    text-shadow: 0px 0px 14px #41617a;
+    font-family: 'Shantell Sans', cursive;
+    color: #ffffff;
+    font-size: 15px;
+    padding: 10px 20px 10px 20px;
+    border: solid #1f628d 0px;
+    text-decoration: none;
+    margin-bottom: 75px;
+
+  }
+  
+  .btn:hover {
+    background: #4bcbf2;
+    text-decoration: none;
+  }
+
+  .contact-me{
+    height: 350px;
+    margin-bottom: 100px;
+  }
+
+
+  .copyright{
+    color:white;
+    font-size: 0.65rem;
+    margin-top: 30px;
+  }
+
+
+  .bottom-container{
+    background-color:#1f628d;
+    padding: 50px 0 20px;
+  }
+
+
+hr {
+    border-color:slategrey;
+    border-style: none;
+    border-top-style: dotted;
+    border-width: 5px;
+    width: 3%;
+    margin: 100px auto;
+}
